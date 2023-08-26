@@ -8,7 +8,6 @@ import sql from "../assets/img/sql.png";
 import html from "../assets/img/html.png";
 import css from "../assets/img/css.png";
 import js from "../assets/img/js.png";
-import react from "../assets/img/react.png";
 import ms from "../assets/img/ms.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
@@ -68,10 +67,6 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={js} alt="Image" />
                                 <h5>JavaScript</h5>
-                            </div>
-                            <div className="item">
-                                <img src={react} alt="Image" />
-                                <h5>React.js</h5>
                             </div>
                             <div className="item">
                                 <img src={ms} alt="Image" />
