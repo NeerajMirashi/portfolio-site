@@ -1,4 +1,4 @@
-import finalresume from '../assets/img/finalresume.pdf';
+import resume from '../assets/img/resume.pdf';
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
@@ -52,7 +52,7 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>Endeavours</Nav.Link>
-              <Nav.Link href={finalresume} target="_blank" className={activeLink === 'finalresume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('finalresume')}>Resume</Nav.Link>
+              <Nav.Link href={resume} target="_blank" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
