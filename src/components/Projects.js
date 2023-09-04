@@ -9,6 +9,7 @@ import nexus from "../assets/img/nexus.jpg";
 import encipher from "../assets/img/encipher.png";
 import stem from "../assets/img/stem.jpg";
 import aws from "../assets/img/aws.jpg";
+import web3.0 from "../assets/img/web3.0.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -22,13 +23,20 @@ export const Projects = () => {
       description: "Autonomous robot deployed to collect types of waste and dispose it into seperate bins. The robot navigates through the different cities to collect segregated waste and dispose it to respective dumping areas.",
       imgUrl: bot,
     },
-        {
+    {
       title: "Encipher",
       tech: "HTML5 | CSS | JavaScript",
       link: <a href="https://encipher.netlify.app/" target="_blank">link</a>,
       description: "A website that encodes and decodes the plain text securely.",
       imgUrl: encipher,
     },
+    {
+      title: "Krypt",
+      tech: "ReactJS | Tailwind-CSS | Metamask | Solidity",
+      link: <a href="https://youtu.be/_i2uJO1Jv-U" target="_blank">link</a>,
+      description: "Deployed a modern Web 3.0 Blockchain App that performs real life transactions",
+      imgUrl: web3.0,
+    },  
   ];
 
 //experience
