@@ -1,15 +1,18 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import bot from "../assets/img/bot.jpg";
-import ieeeyp from "../assets/img/ieeeyp.png";
+import arthavedh from "../assets/img/arthavedh.jpg";
+import evolotek from "../assets/img/evolotek.jpg";
 import eyantra from "../assets/img/eyantra.jpg";
 import inaugural from "../assets/img/inaugural.jpg";
 import induction from "../assets/img/induction.jpg";
+import eyantra2 from "../assets/img/eyantra2.jpg";
+import arthavedh_award from "../assets/img/arthavedh_award.jpg";
 import nexus from "../assets/img/nexus.jpg";
 import encipher from "../assets/img/encipher.png";
 import stem from "../assets/img/stem.jpg";
 import aws from "../assets/img/aws.jpg";
-import web3 from "../assets/img/web3.jpeg";
+import bot2 from "../assets/img/bot2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -24,39 +27,60 @@ export const Projects = () => {
       imgUrl: bot,
     },
     {
+      title: "Geo Guide",
+      tech: "ESP32 | Embedded C | CNN | Image Processing | GIS | Bot building ",
+      link: <a href="https://youtu.be/eMjrv826fIM?si=-f45702pbU7gsRwq" target="_blank">link</a>,
+      description: "Engineered an autonomous robot for optimal pathfinding in simulated war zones using Dijkstra’s algorithm, with wireless communication capabilities.",
+      imgUrl: bot2,
+    },  
+    {
       title: "Encipher",
       tech: "HTML5 | CSS | JavaScript",
       link: <a href="https://encipher.netlify.app/" target="_blank">link</a>,
       description: "A website that encodes and decodes the plain text securely.",
       imgUrl: encipher,
     },
-    {
-      title: "Krypt",
-      tech: "ReactJS | Tailwind-CSS | Metamask | Solidity",
-      link: <a href="https://youtu.be/_i2uJO1Jv-U" target="_blank">link</a>,
-      description: "Deployed a modern Web 3.0 Blockchain App that performs real life transactions",
-      imgUrl: web3,
-    },  
   ];
 
 //experience
 const experience = [
   {
-    title: "IEEE Young Proffesional",
-      tech: "IEEE Bombay Section",
-      link: <a href="https://drive.google.com/file/d/1YHzvKUX60ccGYWE2WP50GW8XjdPRYnWr/view?usp=drive_link" target="_blank">link</a>,
-      description: "During my internship at IEEE Young Professionals Bombay Section, I had the opportunity to work as a full-stack developer in a dynamic online environment. Collaborating with a talented team, showcasing my skills in both front-end and back-end development.",
-      imgUrl: ieeeyp,
+    title: "Software Engineer",
+      tech: "Evolotek Solutions Pvt Ltd, Mumbai | Oct 2025 - Present",
+      // link: <a href="https://drive.google.com/file/d/1YHzvKUX60ccGYWE2WP50GW8XjdPRYnWr/view?usp=drive_link" target="_blank">link</a>,
+      description: "Evolotek is a space of innovation, ownership, and real-world impact. It allows me to build advanced AI workflows, refine my engineering approach, and contribute to solutions that create meaningful value.",
+      imgUrl: evolotek,
+  },
+  {
+    title: "Software Engineer",
+      tech: "Arthavedh Consulting Pvt Ltd, Pune | March 2024 - Sept 2025",
+      link: <a href="https://drive.google.com/file/d/1oaFB-7ULGuN7yASg5XX-I_QId_BBG1q7/view?usp=sharing" target="_blank">link</a>,
+      description: "Arthavedh was a phase of intense learning, experimentation, and rapid skill growth. It pushed me to think deeper, build smarter, and approach engineering with a problem-solver’s mindset.",
+      imgUrl: arthavedh,
   },
 ];
 
 //activities
 const activities = [
   {
+    title: "Rising Star Award ",
+    tech: "Arthavedh Consulting Pvt. Ltd.",
+    link: <a href="https://www.linkedin.com/posts/neeraj--mirashi_startuplife-machinelearning-fintech-activity-7381923099879010304-hSn6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEsZFOMB0rw4Xp8Jj8PGauUCGm1lceBkdU0" target="_blank">link</a>,
+    description: "Receiving the Rising Star of the Year award at Arthavedh recognized my ability to deliver high-impact engineering work, take ownership of complex tasks, and consistently contribute to team success.",
+    imgUrl: arthavedh_award,
+  },
+  {
+    title: "1st rank  in eyantra competition",
+    tech: "IIT Bombay | eYRC 2023-2024",
+    link: <a href="https://drive.google.com/file/d/1OaWiW89_Nnm0Dp5jjLMhwKan7ssIZZ_I/view?usp=drive_link" target="_blank">link</a>,
+    description: "e-Yantra strengthened my fundamentals in embedded systems, algorithmic problem-solving, and robotics engineering, giving me hands-on exposure to building robust autonomous bots.",
+    imgUrl: eyantra2,
+  },
+  {
     title: "3rd rank  in eyantra competition",
     tech: "IIT Bombay",
     link: <a href="https://drive.google.com/file/d/1OaWiW89_Nnm0Dp5jjLMhwKan7ssIZZ_I/view?usp=drive_link" target="_blank">link</a>,
-    description: "Participating in the eYantra Robotics Competition at IIT Bombay was an exhilarating experience that challenged my problem-solving and engineering skills. I worked alongside a dedicated team to tackle real-world problems using innovative solutions.",
+    description: "Participating in the eYantra Robotics Competition at IIT Bombay was an exhilarating experience that challenged my problem-solving and engineering skills.",
     imgUrl: eyantra,
   },
   
@@ -101,11 +125,11 @@ const activities = [
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Endeavours</h2>
-                <p>Throughout my academic journey, I actively participated in projects, internships, and volunteering activities, which collectively enriched my skills and experiences. Engaging in hands-on projects allowed me to apply theoretical knowledge to practical scenarios, fostering a deeper understanding of concepts while showcasing my teamwork and communication skills. Internships provided valuable industry exposure, shaping my career aspirations and refining my technical expertise. Additionally, volunteering activities in IEEE enabled me to give back to the community, developing my sense of responsibility and leadership capabilities.</p>
+                <p>A collection of the milestones, initiatives, and learning moments that have pushed me to think bigger.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Projects</Nav.Link>
+                      <Nav.Link eventKey="first">Implementations</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Experience</Nav.Link>

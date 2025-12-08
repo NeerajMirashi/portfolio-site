@@ -1,14 +1,14 @@
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import c from "../assets/img/c.png";
-import cpp from "../assets/img/cpp.png";
-import java from "../assets/img/java.png";
+import python from "../assets/img/python.png";
+import nifi from "../assets/img/nifi.png";
+import n8n from "../assets/img/n8n.png";
 import sql from "../assets/img/sql.png";
-import html from "../assets/img/html.png";
-import css from "../assets/img/css.png";
-import js from "../assets/img/js.png";
-import ms from "../assets/img/ms.png";
+import supabase from "../assets/img/supabase.png";
+import langgraph from "../assets/img/langgraph.png";
+import docker from "../assets/img/docker.jpg";
+// import ms from "../assets/img/ms.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -41,37 +41,37 @@ export const Skills = () => {
                         <p>With a passion for continuous learning and a determined spirit, I possess a versatile skillset that extends across various technical domains. As a lifelong learner, I am eager to contribute my skills to meaningful projects, making a positive impact and striving for excellence.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={c} alt="Image" />
-                                <h5>C Programming</h5>
+                                <img src={python} alt="Image" />
+                                <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={cpp} alt="Image" />
-                                <h5>C++ Programing</h5>
+                                <img src={nifi} alt="Image" />
+                                <h5>Apache Nifi</h5>
                             </div>
                             <div className="item">
-                                <img src={java} alt="Image" />
-                                <h5>Java Programming</h5>
+                                <img src={n8n} alt="Image" />
+                                <h5>n8n</h5>
                             </div>
                             <div className="item">
                                 <img src={sql} alt="Image" />
-                                <h5>PL/SQL</h5>
+                                <h5>SQL</h5>
                             </div>
                             <div className="item">
-                                <img src={html} alt="Image" />
-                                <h5>HTML</h5>
+                                <img src={supabase} alt="Image" />
+                                <h5>Supabase</h5>
                             </div>
                             <div className="item">
-                                <img src={css} alt="Image" />
-                                <h5>CSS</h5>
+                                <img src={langgraph} alt="Image" />
+                                <h5>LangGraph</h5>
                             </div>
                             <div className="item">
-                                <img src={js} alt="Image" />
-                                <h5>JavaScript</h5>
+                                <img src={docker} alt="Image" />
+                                <h5>Docker</h5>
                             </div>
-                            <div className="item">
+                            {/* <div className="item">
                                 <img src={ms} alt="Image" />
                                 <h5>Microsoft Office</h5>
-                            </div>
+                            </div> */}
                         </Carousel>
                     </div>
                 </div>

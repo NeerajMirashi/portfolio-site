@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(250 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "e-Yantra Finalist @ IIT Bombay", "Chair of IEEE Student Branch, DKTE", "Self Learner", "Problem Solver" ];
+  const toRotate = [ "AI Engineer", "Top Performer", "Ownership-Driven Engineer", "Data-Driven Problem Solver" ];
   const period = 2500;
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`I'm `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "e-Yantra Winner @ IIT Bombay", "Chair of IEEE Student Branch, DKTE", "Full Stack Developer", "Self Learner", "Problem Solver" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am currently pursuing a B.Tech degree in Computer Science Engineering with a focus on Artificial Intelligence at DKTE's Textile & Engineering Institute, Ichalkaranji. Hard work and determination define my approach to learning, and I prioritize long-term goals through continuous self-improvement. With a competitive edge, attention to detail, and multitasking abilities, I am confident in contributing significantly to achieving my career objectives. I value a harmonious work environment and effective leadership, seeking a role that allows me to pitch ideas while being mentored for a successful career path.</p>
+                  <p>I am Computer Science Engineer (AI/ML) passionate about building the next generation of intelligent systems. I enjoy exploring and building new ideas, designing automation workflows, and transforming complex problems into scalable, futuristic solutions. My work focuses on using AI to unlock efficiency, create new capabilities, and shape smarter digital experiences. I’m driven by curiosity and long-term vision—constantly experimenting, improving, and pushing boundaries to build technology that moves organizations forward.</p>
               </div>}
             </TrackVisibility>
           </Col>
